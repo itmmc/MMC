@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Co Headline', 'Tahoma', 'Arial', sans-serif;
+    src: url(./assets/fonts/CoHeadline-Light.woff) format('woff');
+    src: url(./assets/fonts/CoHeadline-Light.woff2) format('woff2');
+    src: url(./assets/fonts/CoHeadline-Regular.woff) format('woff');
+    src: url(./assets/fonts/CoHeadline-Regular.woff2) format('woff2');
+}

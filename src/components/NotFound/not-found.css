@@ -1,0 +1,21 @@
+.not-found-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     text-align: center;
+     background-color: #f0f0f0; /* Adjust the background color to your preference */
+   }
+   
+   h1 {
+     font-size: 48px;
+     margin-bottom: 16px;
+   }
+   
+  
+
+   .not-found-desc{
+    font-size: 18px;
+    color: #555;
+   }

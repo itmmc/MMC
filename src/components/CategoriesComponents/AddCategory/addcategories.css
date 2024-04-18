@@ -1,0 +1,19 @@
+.register-form-container {
+    justify-content: center;
+}
+
+.category-head {
+    width: 70%;
+    margin: auto;
+}
+
+.category-field-container {
+    align-items: unset !important;
+}
+
+.label-tag::after {
+    content: '*';
+    color: red;
+    font-size: 20px;
+    margin: 5px;
+}

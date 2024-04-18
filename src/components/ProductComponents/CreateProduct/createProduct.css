@@ -1,0 +1,80 @@
+.custom_form_set {
+    width: 56.875em;
+    gap: 1.88em;
+}
+
+.custom_input_set {
+    gap: 1.88em;
+    position: relative;
+}
+
+.register-form-container {
+    justify-content: center;
+}
+
+.category-head {
+    width: 70%;
+    margin: auto;
+}
+
+.Single-Field-Label-Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .label-select {
+        width: 80%;
+    }
+}
+
+.double-field-label-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+
+    .custom-btn-container {
+        width: 60%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 1140px) {
+    .Single-Field-Label-Container {
+        .label-select {
+            width: 100%;
+        }
+    }
+
+    .double-field-label-container {
+        width: 100%;
+
+        .custom-btn-container {
+            width: 70%;
+        }
+    }
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+    /* .Single-Field-Label-Container{
+          
+        
+            .label-select{
+                width: 100%;
+            }
+            
+        } */
+
+    .double-field-label-container {
+        flex-direction: column;
+        align-items: normal;
+        gap: 20px;
+
+        width: 100%;
+
+        .custom-btn-container {
+            width: 100%;
+        }
+    }
+}

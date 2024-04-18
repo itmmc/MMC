@@ -1,0 +1,148 @@
+/*!
+	* MMC - EN Stylesheet
+*/
+body,
+input,
+textarea,
+table,
+select {
+    font-family: 'Gotham', 'Tahoma', 'Arial', sans-serif;
+    letter-spacing: -0.03em;
+    /* src: url(../fonts/Gotham-Book.woff) format('woff');
+    src: url(../fonts/Gotham-Book.woff2) format('woff2');
+    src: url(../fonts/Gotham-Medium.woff) format('woff');
+    src: url(../fonts/Gotham-Medium.woff2) format('woff2'); */
+    /* direction: ltr !important; */
+}
+
+.language {
+    font-family: 'Tahoma';
+}
+
+td {
+    font-weight: 500 !important;
+}
+th {
+    font-weight: 700 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+strong,
+.dropdown_set select {
+    font-weight: 500;
+}
+
+h5,
+h6 {
+    font-weight: 400;
+}
+
+input:-internal-autofill-selected {
+    appearance: menulist-button;
+    background-image: none !important;
+    background-color: -internal-light-dark(
+        rgb(232, 240, 254),
+        rgba(70, 90, 126, 0.4)
+    ) !important;
+    color: fieldtext !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: -0.08em;
+}
+
+/* Margin */
+.ft_links {
+    margin-left: auto;
+}
+.words_slide {
+    margin-right: 5em;
+}
+
+/* Padding */
+.ft_links a:not(:last-child) {
+    border-right: 1px solid;
+    padding-right: 1em;
+}
+.locations_block:first-child {
+    padding-right: 3.75em;
+}
+.dropdown_set select {
+    padding-right: 4em;
+}
+
+/* Left & Right */
+.search_input,
+.vector_set,
+.search_btn,
+.to_top {
+    right: 0;
+}
+.main_hero .social {
+    right: 5em;
+}
+.input_set .rounded_button {
+    right: 1em;
+}
+.input_set > svg {
+    right: 2.5em;
+}
+.dropdown_set svg {
+    right: 2em;
+}
+
+.ft_vector {
+    left: 0;
+}
+
+/* Extras */
+
+/* Responsiveness */
+@media (max-width: 960px) {
+    .locations_block:first-child {
+        padding-right: 2.5em;
+    }
+    .locations_block:first-child {
+        padding-right: 0;
+    }
+    .main_hero .social {
+        right: 3em;
+    }
+}
+
+@media (min-width: 641px) {
+    .locations_block:first-child {
+        border-right: 1px solid rgba(250, 243, 230, 0.3);
+    }
+    .burger_button {
+        right: 1.875em;
+    }
+    .full_screen {
+        left: -1.875em;
+    }
+}
+
+@media (max-width: 640px) {
+    .words_slide {
+        margin-right: 6em;
+    }
+    .journey_card {
+        margin-right: 2em;
+    }
+    .burger_button,
+    .main_hero .social {
+        right: 1em !important;
+    }
+}
+
+.custom-ipo-title {
+    font-weight: 700 !important;
+}

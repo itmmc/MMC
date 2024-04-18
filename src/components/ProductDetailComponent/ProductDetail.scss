@@ -1,0 +1,294 @@
+.inner-container {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+
+    .inner-detail-container {
+        display: flex;
+        gap: 8px;
+
+        .product-section {
+            width: 30%;
+            padding: 20px;
+
+            display: flex;
+            flex-direction: column;
+
+            .heading-section {
+                font-size: 2.1875em;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 120%; /* 42px */
+                // letter-spacing: -2.1px;
+                display: flex;
+                flex-wrap: wrap;
+                color: #362720;
+                display: block !important;
+
+                .heading-section-wg {
+                    // font-size: 2.1875em;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 120%; /* 42px */
+                    // letter-spacing: -2.1px;
+                }
+            }
+
+            .product-image-section {
+                padding: 6rem 0px;
+                .image-bg {
+                    background: #faf4ea;
+                    border-radius: 10px;
+                    .image-container {
+                        margin: -30px;
+                    }
+                }
+            }
+        }
+
+        .product-detail-section {
+            padding: 20px;
+            width: 70%;
+            .tab-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                .tab-links-conainer {
+                    .tabs {
+                        display: flex;
+                    }
+                }
+
+                .cross-section {
+                    width: 40px;
+                    cursor: pointer;
+                }
+            }
+
+            .nutrition-container {
+                display: none;
+                background: #faf4ea;
+                padding: 35.11px 108px;
+
+                .table-data-container {
+                    /* padding-top: 3rem; */
+                    padding-bottom: 70px;
+
+                    .table-container {
+                        .table-head {
+                            .cl-brown {
+                                color: #362720;
+                                // font-family: 'Gotham Rounded';
+                                font-size: 1.125em;
+                                font-style: normal;
+
+                                line-height: 140%;
+                                letter-spacing: -1.08px;
+                                padding: 9px 0px;
+                            }
+                        }
+
+                        .cst-head {
+                            font-size: 1.125em;
+                            font-style: normal;
+                            // font-weight: 700 !important;
+                        }
+                        .tableHeading {
+                            color: #362720;
+                            font-size: 1.125em;
+                            font-style: normal;
+                            // font-weight: 700;
+                            line-height: 140%; /* 25.2px */
+                        }
+                        .table-link {
+                            flex-shrink: 0;
+                            word-wrap: 'break-word';
+                            // font-family: 'Gotham';
+                            font-size: 1.125em;
+                            font-style: normal;
+                            // font-weight: 350;
+                            line-height: 140%; /* 25.2px */
+                            letter-spacing: -1.08px;
+                            color: #362720;
+                            padding: 9px 0px;
+                        }
+                    }
+                }
+            }
+
+            .specification-container {
+                display: none;
+                background: #faf4ea;
+                padding: 35.11px 108px;
+                // border-radius: 0px 10px 10px 10px;
+
+                .table-data-container {
+                    /* padding-top: 3rem; */
+                    padding-bottom: 70px;
+                    // padding-left: 30px;
+                    // padding-right: 30px;
+
+                    .table-container {
+                        .table-head {
+                            // .cl-brown {
+                            //     color: #362720;
+                            //     font-size: 18px;
+                            //     font-weight: 600;
+                            // }
+                        }
+
+                        .td-padding {
+                            padding: 30px 0px;
+                        }
+                        .table-link {
+                            word-wrap: 'break-word';
+
+                            font-size: 1.125em;
+                            font-style: normal;
+
+                            line-height: 140%;
+                            letter-spacing: -1.08px;
+                            color: #362720;
+                            width: 500px !important;
+                        }
+                    }
+                }
+            }
+
+            .show-content {
+                display: block;
+            }
+        }
+
+        .fs-25 {
+            font-size: 24px;
+            // font-family: Gotham Rounded;
+            font-size: 24px;
+            font-style: normal;
+            // font-weight: 350;
+            line-height: 160%; /* 38.4px */
+            letter-spacing: -1.44px;
+        }
+
+        .px-30 {
+            margin-right: 30px;
+        }
+        .pt-20 {
+            padding: 23px 32px;
+            // padding-top: 20px;
+            // padding-bottom: 20px;
+            // padding-left: 10px;
+            // padding-right: 10px;
+        }
+
+        .br-left {
+            border-top-left-radius: 15px;
+        }
+
+        .br-right {
+            border-top-right-radius: 15px;
+        }
+
+        .bg-yellow {
+            background: #d99a0e;
+        }
+
+        .activebg {
+            background: #faf4ea !important;
+        }
+
+        .show-content {
+            display: block;
+        }
+
+        .pt-2 {
+            padding: 2rem 0px;
+        }
+
+        .mt-0 {
+            margin-top: 0px !important;
+            margin-bottom: 0px !important;
+        }
+
+        .bg-none {
+            background-color: unset !important;
+        }
+
+        .cl-brown {
+            color: #362720;
+            // font-size: 18px;
+            font-weight: 600;
+        }
+
+        .pa-x {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .fw-900 {
+            font-weight: 700 !important;
+        }
+
+        .block-none {
+            display: inline-block !important ;
+        }
+
+        .br-container-en {
+            border-radius: 0px 20px 20px 20px !important;
+        }
+
+        .br-container-ar {
+            border-radius: 20px 0px 20px 20px !important;
+        }
+    }
+
+    .ltrr {
+        direction: ltr;
+    }
+
+    .rtll {
+        direction: rtl;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .inner-container {
+        .inner-detail-container {
+            flex-direction: column-reverse;
+
+            .product-detail-section {
+                .specification-container {
+                    padding: 30px 20px !important;
+                }
+
+                .nutrition-container {
+                    padding: 30px 20px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .inner-container {
+        .inner-detail-container {
+            flex-direction: column-reverse;
+
+            .product-detail-section {
+                width: 100%;
+            }
+
+            .product-section {
+                width: 50%;
+            }
+        }
+    }
+}
+
+.product-detail-tab-heading {
+    font-size: 1.5em;
+
+    font-style: normal;
+    // font-weight: 350;
+    line-height: 160%; /* 38.4px */
+    letter-spacing: -1.44px;
+}

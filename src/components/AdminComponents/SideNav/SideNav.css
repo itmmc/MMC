@@ -1,0 +1,32 @@
+/* .sidebar-container {
+    width: 18rem;
+    height: 100vh;
+} */
+
+.fs-20 {
+    font-size: 1.125em;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.header-inner-container {
+    border: none !important;
+}
+
+.side-bar-container {
+    height: 100vh;
+
+    position: fixed !important;
+    width: 20%;
+
+    padding: 40px;
+}
+
+@media (max-width: 768px) {
+    .side-bar-container {
+        position: unset;
+        width: unset;
+    }
+}

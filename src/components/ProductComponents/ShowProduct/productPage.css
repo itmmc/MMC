@@ -1,0 +1,15 @@
+.delete-icon {
+    font-size: 20px;
+    color: red;
+    margin: 10px;
+}
+.update-icon {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.view-icon {
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(217, 154, 14);
+}

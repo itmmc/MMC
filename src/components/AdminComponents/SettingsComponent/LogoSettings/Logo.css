@@ -1,0 +1,50 @@
+.custom-padding {
+    padding-top: 1.7rem !important;
+}
+
+.custom-form-set {
+    gap: 1.88em;
+
+    justify-content: space-between;
+}
+
+.pt-custom {
+    padding: 15px 0px 10px 0px;
+}
+
+.pt-30 {
+    padding: 30px 0px;
+}
+
+.px-30 {
+    padding: 0px 30px;
+}
+
+.custom-btn {
+    display: inline-flex;
+    overflow: hidden;
+    will-change: transform;
+    height: 1.75em;
+    padding: 18px 20px;
+    gap: 0.5em;
+    border-radius: 10em;
+}
+.custom-btn-container {
+    height: 2.375em;
+    border-radius: 20em;
+    outline: none;
+    padding: 1.1em 2.5em;
+    border: 1px solid rgba(54, 39, 32, 0.2);
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+    resize: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-e {
+    justify-content: end;
+}

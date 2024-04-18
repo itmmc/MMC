@@ -1,0 +1,156 @@
+/*!
+	* MMC - AR Stylesheet
+*/
+body,
+input,
+textarea,
+table,
+select {
+    font-family: 'Co Headline', 'Tahoma', 'Arial', sans-serif;
+    /* direction: rtl !important; */
+
+    /* src: url(../fonts/CoHeadline-Light.woff) format('woff');
+    src: url(../fonts/CoHeadline-Light.woff2) format('woff2');
+    src: url(../fonts/CoHeadline-Regular.woff) format('woff');
+    src: url(../fonts/CoHeadline-Regular.woff2) format('woff2'); */
+}
+
+td {
+    font-weight: 400 !important;
+}
+th {
+    font-weight: 700 !important;
+}
+
+body {
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+strong,
+.dropdown_set select {
+    font-weight: 400;
+}
+
+.xxx {
+    transform: translateX(-1em);
+}
+
+.rounded_button svg,
+.site_button svg,
+.sz_arrow svg,
+.inline_link svg,
+.vector_set svg,
+.ft_vector svg,
+.bc svg {
+    transform: scaleX(-1);
+}
+
+.header-text-width {
+    width: max-content;
+}
+.custom-ipo-title {
+    font-weight: 400 !important;
+}
+.ipo_button {
+    height: 2.8em;
+    padding: 0 1.5em;
+    width: max-content;
+}
+._underline:before {
+    transform-origin: 100% 100%;
+}
+
+/* Margin */
+.ft_links {
+    margin-right: auto;
+}
+.words_slide {
+    margin-left: 15em;
+}
+
+/* Padding */
+.ft_links a:not(:last-child) {
+    border-left: 1px solid;
+    padding-left: 1em;
+}
+.locations_block:first-child {
+    padding-left: 3.75em;
+}
+.dropdown_set select {
+    padding-left: 4em;
+}
+
+/* Left & Right */
+.search_input,
+.vector_set,
+.search_btn,
+.to_top {
+    left: 0;
+}
+.main_hero .social {
+    left: 5em;
+}
+.input_set .rounded_button {
+    left: 1em;
+}
+.input_set > svg {
+    left: 2.5em;
+}
+.dropdown_set svg {
+    left: 2em;
+}
+
+.ft_vector {
+    right: 0;
+}
+
+/* Extras */
+.main_logo,
+.contact_txt a span {
+    direction: ltr;
+}
+.journey_year_set strong {
+    line-height: 120%;
+}
+
+/* Responsiveness */
+@media (max-width: 960px) {
+    .locations_block:first-child {
+        padding-left: 2.5em;
+    }
+    .locations_block:first-child {
+        padding-left: 0;
+    }
+    .main_hero .social {
+        left: 3em;
+    }
+}
+
+@media (min-width: 641px) {
+    .locations_block:first-child {
+        border-left: 1px solid rgba(250, 243, 230, 0.3);
+    }
+    .burger_button {
+        left: 1.875em;
+    }
+    .full_screen {
+        right: -1.875em;
+    }
+}
+
+@media (max-width: 640px) {
+    .words_slide {
+        margin-left: 6em;
+    }
+    .journey_card {
+        margin-left: 2em;
+    }
+    .burger_button,
+    .main_hero .social {
+        left: 1em !important;
+    }
+}

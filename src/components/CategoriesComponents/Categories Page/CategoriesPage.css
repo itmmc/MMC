@@ -1,0 +1,32 @@
+.categories-header-container {
+    /* margin-top: 20px; */
+    background-color: rgb(250, 244, 234);
+    display: flex;
+    /* padding: 20px 0px; */
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.Create-Category-btn {
+    color: #faf3e6;
+}
+
+.categories-header-dropdown {
+    background: #eae2d4 !important;
+    height: 3.75em !important;
+    padding: 0.9em 2.3em !important;
+}
+
+.cate-dropdown-container {
+    /* width: 25%; */
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.svg-arrow {
+    right: 1.3em !important;
+}
