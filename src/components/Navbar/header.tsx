@@ -1017,7 +1017,7 @@ const Header: React.FunctionComponent<any> = ({ openModelFunc }) => {
                                                 }
                                                 target="_blank"
                                                 className={getLinkClassName(
-                                                    '/blogs'
+                                                    '/blogss'
                                                 )}
                                                 aria-label="Careers"
                                             >
