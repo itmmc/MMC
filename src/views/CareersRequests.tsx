@@ -32,6 +32,27 @@ const CareersRequests = () => {
 
     useEffect(() => {}, [requestData])
 
+    const handleDownload = async (item: any) => {
+        await axios({
+            method: 'Post',
+            url: `${baseUrl}/opportunityRequest/getByID`,
+            data: { id: item },
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        })
+            .then((response: any) => {
+                const link = document.createElement('a')
+                link.href = response.data.data.opportunityRequest.cv
+                link.setAttribute(
+                    'download',
+                    `${response.data.data.opportunityRequest.firstName}_CV`
+                )
+                document.body.appendChild(link)
+                link.click()
+            })
+            .catch((error: any) => {})
+    }
     console.log('Request Data', requestData)
     return (
         <>
@@ -101,8 +122,9 @@ const CareersRequests = () => {
                                             <td align="center">
                                                 <a
                                                     className="update-button"
-                                                    href={item?.cv}
-                                                    download={`${item?.firstName}_CV`}
+                                                    onClick={() => {
+                                                        handleDownload(item._id)
+                                                    }}
                                                     title="Download CVs "
                                                 >
                                                     <img

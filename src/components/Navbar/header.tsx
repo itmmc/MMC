@@ -1005,28 +1005,25 @@ const Header: React.FunctionComponent<any> = ({ openModelFunc }) => {
                                             </a>
                                         </li>
                                     )}
-                                    {isAfterOrEqualTo10AMKSA() && (
-                                        <li className="_ele">
-                                            <a
-                                                href={
-                                                    localStorage.getItem(
-                                                        'lang'
-                                                    ) === 'en'
-                                                        ? 'https://ir.modernmills.com.sa/en/investor-relations/'
-                                                        : 'https://ir.modernmills.com.sa/ar/investor-relations/'
-                                                }
-                                                target="_blank"
-                                                className={getLinkClassName(
-                                                    '/blogss'
-                                                )}
-                                                aria-label="Careers"
-                                            >
-                                                <strong className="_txt words custom-anim">
-                                                    {t('investorRelationlabel')}
-                                                </strong>
-                                            </a>
-                                        </li>
-                                    )}
+                                    <li className="_ele">
+                                        <a
+                                            href={
+                                                localStorage.getItem('lang') ===
+                                                'en'
+                                                    ? 'https://ir.modernmills.com.sa/en/investor-relations/'
+                                                    : 'https://ir.modernmills.com.sa/ar/investor-relations/'
+                                            }
+                                            target="_blank"
+                                            className={getLinkClassName(
+                                                '/blogss'
+                                            )}
+                                            aria-label="Careers"
+                                        >
+                                            <strong className="_txt words custom-anim">
+                                                {t('investorRelationlabel')}
+                                            </strong>
+                                        </a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
@@ -1304,28 +1301,25 @@ const Header: React.FunctionComponent<any> = ({ openModelFunc }) => {
                                             </strong>
                                         </a>
                                     </li>
-                                    {isAfterOrEqualTo10AMKSA() && (
-                                        <li className="_el">
-                                            <a
-                                                href={
-                                                    localStorage.getItem(
-                                                        'lang'
-                                                    ) === 'en'
-                                                        ? 'https://ir.modernmills.com.sa/en/investor-relations/'
-                                                        : 'https://ir.modernmills.com.sa/ar/investor-relations/'
-                                                }
-                                                className="interactive_label"
-                                                aria-label="Contact us"
-                                                // onClick={() =>
-                                                //     reloadPage('/#/blogs')
-                                                // }
-                                            >
-                                                <strong className="_txt words">
-                                                    {t('investorRelationlabel')}
-                                                </strong>
-                                            </a>
-                                        </li>
-                                    )}
+                                    <li className="_el">
+                                        <a
+                                            href={
+                                                localStorage.getItem('lang') ===
+                                                'en'
+                                                    ? 'https://ir.modernmills.com.sa/en/investor-relations/'
+                                                    : 'https://ir.modernmills.com.sa/ar/investor-relations/'
+                                            }
+                                            className="interactive_label"
+                                            aria-label="Contact us"
+                                            // onClick={() =>
+                                            //     reloadPage('/#/blogs')
+                                            // }
+                                        >
+                                            <strong className="_txt words">
+                                                {t('investorRelationlabel')}
+                                            </strong>
+                                        </a>
+                                    </li>
                                 </ul>
 
                                 <div className="social f  ">
